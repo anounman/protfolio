@@ -56,7 +56,7 @@ function Projects() {
             <ProjectCard
               imgPath={dict}
               isBlog={false}
-              title="Dictonary Website"
+              title="WhatsApp Clone"
               description="This is a simple whatsapp clone built using react and use firebase a backend. And it use firebase google authenticator for login. You can login with google in it."
               link="https://github.com/anounman/whatsapp_clone"
               website="https://reactwpc.web.app/"
