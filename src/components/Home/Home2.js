@@ -1,13 +1,13 @@
 import React from "react";
-import { Container, Row, Col } from "react-bootstrap";
+import { Col, Container, Row } from "react-bootstrap";
 // import myImg from "../../Assets/a.jpeg";
-import Tilt from "react-parallax-tilt";
 import {
   AiFillGithub,
-  AiOutlineTwitter,
   AiFillInstagram,
+  AiOutlineTwitter,
 } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
+import Tilt from "react-parallax-tilt";
 
 function Home2() {
   return (
@@ -29,7 +29,7 @@ function Home2() {
               </i>
               <br />I am fluent in classics like
               <i>
-                <b className="purple"> Flutter , React Js , Node js and Python </b>
+                <b className="purple"> Flutter , React.Js , Next.Js , Node.js and Gen AI </b>
               </i>
               <br />
               <br />

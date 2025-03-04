@@ -3,10 +3,12 @@ import { Col, Container, Row } from "react-bootstrap";
 import Particle from "../Particle";
 import ProjectCard from "./ProjectCards";
 
-import codesync from "../../Assets/Projects/a.png";
-import tasmeal from "../../Assets/Projects/b.png";
-import dict from "../../Assets/Projects/c.png";
+import ml from "../../Assets/Projects/a.png";
+import dating from "../../Assets/Projects/b.png";
+import wp from "../../Assets/Projects/c.png";
 import cvGen from "../../Assets/Projects/cv_gen.png";
+import dilivery from "../../Assets/Projects/dilivery.png";
+import halloween from "../../Assets/Projects/halloween.png";
 import hirred from "../../Assets/Projects/hirred.png";
 
 
@@ -44,7 +46,7 @@ function Projects() {
           </Col>
           <Col md={6} className="project-card">
             <ProjectCard
-              imgPath={cvGen}
+              imgPath={halloween}
               isBlog={false}
               title="Responsive Halloween Website"
               description="It's a responsive Halloween website built using HTML, CSS, and JavaScript to showcase the the htm and css knowladge. It's a simple website with some animations and responsive design."
@@ -52,9 +54,20 @@ function Projects() {
               websit="https://anounman.github.io/Halloween-Website/"
             />
           </Col>
+
           <Col md={6} className="project-card">
             <ProjectCard
-              imgPath={codesync}
+              imgPath={dilivery}
+              isBlog={false}
+              title="Responsive Website Delivery"
+              description="It's a responsive Delivery website built using HTML, CSS, and JavaScript to showcase the the htm and css knowladge. It's a simple website with some animations and responsive design."
+              link="https://github.com/anounman/Responsive-Website-Delivery"
+              websit="https://anounman.github.io/Responsive-Website-Delivery/"
+            />
+          </Col>
+          <Col md={6} className="project-card">
+            <ProjectCard
+              imgPath={ml}
               isBlog={false}
               title="Gym Gude Using ML and Flutter"
               description="ML flutter project it use image processing to detect postion and count your workout
@@ -65,7 +78,7 @@ function Projects() {
 
           <Col md={6} className="project-card">
             <ProjectCard
-              imgPath={tasmeal}
+              imgPath={dating}
               isBlog={false}
               title="ReLation"
               description="It's a dating app where we carefully make matches. We are here to make our generation best by giving them their best partners. Now we are just making best matches but gradually our app will provide many more advanced advantages that are not given by any other dating apps."
@@ -75,7 +88,7 @@ function Projects() {
           </Col>
           <Col md={6} className="project-card">
             <ProjectCard
-              imgPath={dict}
+              imgPath={wp}
               isBlog={false}
               title="WhatsApp Clone"
               description="This is a simple whatsapp clone built using react and use firebase a backend. And it use firebase google authenticator for login. You can login with google in it."
