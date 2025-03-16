@@ -28,6 +28,16 @@ function Projects() {
             <ProjectCard
               imgPath={hirred}
               isBlog={false}
+              title="TypeTourney - A Multiplayer Typing Race Game! "
+              description="a fun little multiplayer typing race app where you can challenge friends to see who types fastest!What's Typeo?join a room, share the code with friends, and race to type a given passage. The coolest part? You can see everyone's cursors moving in real-time as they type - watching your friend's cursor zoom past yours (or fall behind) adds that competitive edge that makes it addictive!Even you can practice your typing skill offline also"
+              link="https://github.com/anounman/typetourney"
+              website="https://typetourney.vercel.app/"
+            />
+          </Col>
+          <Col md={6} className="project-card">
+            <ProjectCard
+              imgPath={hirred}
+              isBlog={false}
               title="Hirrd - Job Portal Application"
               description="Hirrd is a modern job portal application that connects job seekers with employers. The platform enables companies to post job listings and candidates to search and apply for positions that match their skills and interests."
               link="https://github.com/anounman/Full-Stack-Job-Portal"
