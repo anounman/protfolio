@@ -10,6 +10,7 @@ import cvGen from "../../Assets/Projects/cv_gen.png";
 import dilivery from "../../Assets/Projects/dilivery.png";
 import halloween from "../../Assets/Projects/halloween.png";
 import hirred from "../../Assets/Projects/hirred.png";
+import typetourney from "../../Assets/Projects/typetourney.png";
 
 
 function Projects() {
@@ -26,7 +27,7 @@ function Projects() {
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={6} className="project-card">
             <ProjectCard
-              imgPath={hirred}
+              imgPath={typetourney}
               isBlog={false}
               title="TypeTourney - A Multiplayer Typing Race Game! "
               description="a fun little multiplayer typing race app where you can challenge friends to see who types fastest!What's Typeo?join a room, share the code with friends, and race to type a given passage. The coolest part? You can see everyone's cursors moving in real-time as they type - watching your friend's cursor zoom past yours (or fall behind) adds that competitive edge that makes it addictive!Even you can practice your typing skill offline also"
