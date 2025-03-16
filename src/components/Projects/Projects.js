@@ -30,7 +30,7 @@ function Projects() {
               imgPath={typetourney}
               isBlog={false}
               title="TypeTourney - A Multiplayer Typing Race Game! "
-              description="a fun little multiplayer typing race app where you can challenge friends to see who types fastest!What's Typeo?join a room, share the code with friends, and race to type a given passage. The coolest part? You can see everyone's cursors moving in real-time as they type - watching your friend's cursor zoom past yours (or fall behind) adds that competitive edge that makes it addictive!Even you can practice your typing skill offline also"
+              description="a fun little multiplayer typing race app where you can challenge friends to see who types fastest!What's TypeTourney?join a room, share the code with friends, and race to type a given passage. The coolest part? You can see everyone's cursors moving in real-time as they type - watching your friend's cursor zoom past yours (or fall behind) adds that competitive edge that makes it addictive!Even you can practice your typing skill offline also"
               link="https://github.com/anounman/typetourney"
               website="https://typetourney.vercel.app/"
             />
